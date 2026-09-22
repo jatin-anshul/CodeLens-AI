@@ -97,7 +97,7 @@ Follow this guide to run CodeLens-AI locally on your computer and connect it to 
 
 **Option A: Using Git (Recommended)**
 ```bash
-git clone https://github.com/jatin-anshul/CodeLens-AI.git
+git clone https://github.com/Heshane-11/CodeLens-AI.git
 cd CodeLens-AI
 ```
 
