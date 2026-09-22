@@ -1,5 +1,5 @@
 """
-CodeLens AI CLI Entry Point
+CodeLens-AI CLI Entry Point
 
 Two main commands:
   1. serve     - Start the FastAPI server (required first)
@@ -27,7 +27,7 @@ from coding_assistant.app import create_app
 def main() -> None:
     parser = argparse.ArgumentParser(
         prog="codelens-ai",
-        description="CodeLens AI — API server and terminal chat client.",
+        description="CodeLens-AI — API server and terminal chat client.",
     )
     sub = parser.add_subparsers(dest="command", required=True)
 
@@ -57,7 +57,7 @@ def main() -> None:
     
     if args.command == "serve":
         # Start the FastAPI server
-        print(f"🚀 Starting CodeLens AI server at http://{args.host}:{args.port}")
+        print(f"🚀 Starting CodeLens-AI server at http://{args.host}:{args.port}")
         print(f"📖 API documentation at http://{args.host}:{args.port}/docs")
         uvicorn.run(
             "coding_assistant.app:create_app",

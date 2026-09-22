@@ -1,4 +1,4 @@
-# Getting Started with CodeLens AI
+# Getting Started with CodeLens-AI
 
 A step-by-step guide to set up and use the intelligent coding assistant.
 
@@ -89,7 +89,7 @@ LOG_LEVEL=INFO
 pip install -e ".[dev]"
 ```
 
-This installs CodeLens AI in editable mode with development dependencies.
+This installs CodeLens-AI in editable mode with development dependencies.
 
 ## Running the Server
 

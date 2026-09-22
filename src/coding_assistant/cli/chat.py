@@ -1,7 +1,7 @@
 """
-Interactive Terminal Chat Client for CodeLens AI
+Interactive Terminal Chat Client for CodeLens-AI
 
-Provides a friendly terminal interface to interact with the CodeLens AI server.
+Provides a friendly terminal interface to interact with the CodeLens-AI server.
 
 Features:
   • Natural language queries about your codebase
@@ -20,7 +20,7 @@ Examples:
   "/status" - show current settings
   "/help" - list all commands
 
-Author: CodeLens AI Team
+Author: CodeLens-AI Team
 """
 
 from __future__ import annotations

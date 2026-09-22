@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 CodeLens AI
+# 🤖 CodeLens-AI
 
 ### AI-Powered Coding Assistant — Think, Plan, Execute
 
@@ -9,7 +9,7 @@
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
 [![LangGraph](https://img.shields.io/badge/LangGraph-Orchestrated-FF6B35?style=for-the-badge)](https://langchain-ai.github.io/langgraph/)
 
-**CodeLens AI is an intelligent agentic coding assistant that understands your codebase, plans multi-step actions, runs tools safely, and helps you ship software faster — powered by the LLM of your choice.**
+**CodeLens-AI is an intelligent agentic coding assistant that understands your codebase, plans multi-step actions, runs tools safely, and helps you ship software faster — powered by the LLM of your choice.**
 
 [📖 Docs](docs/) · [⚡ Quick Start](#-step-by-step-local-setup-guide) · [🐛 Report Bug](https://github.com/Heshane-11/CodeLens-AI/issues)
 
@@ -32,11 +32,11 @@
 
 ---
 
-## 🥊 How CodeLens AI Differs From Other AI Tools
+## 🥊 How CodeLens-AI Differs From Other AI Tools
 
-Unlike passive chat interfaces that only process copy-pasted text, **CodeLens AI is an autonomous software engineering agent** that operates directly on your local workspace:
+Unlike passive chat interfaces that only process copy-pasted text, **CodeLens-AI is an autonomous software engineering agent** that operates directly on your local workspace:
 
-| Capability | Standard AI Chatbots (ChatGPT / Claude Web) | Basic Copilot Plugins | 🤖 CodeLens AI Agent |
+| Capability | Standard AI Chatbots (ChatGPT / Claude Web) | Basic Copilot Plugins | 🤖 CodeLens-AI Agent |
 | :--- | :--- | :--- | :--- |
 | **Codebase Awareness** | ❌ Manual copy-pasting (1–2 files at a time) | ⚠️ Limited to active editor tab | ✅ **Full Codebase Indexing** (AST Tree-sitter & `pgvector` semantic search) |
 | **Autonomous Tool Execution** | ❌ None (Text-only output) | ❌ Cannot execute external tools | ✅ **Multi-Tool Agent Loop** (File read, patch writing, grep, linting) |
@@ -81,7 +81,7 @@ Unlike passive chat interfaces that only process copy-pasted text, **CodeLens AI
 
 ## ⚡ Step-by-Step Local Setup Guide
 
-Follow this guide to run CodeLens AI locally on your computer and connect it to any project on your machine.
+Follow this guide to run CodeLens-AI locally on your computer and connect it to any project on your machine.
 
 ### 📋 Prerequisites
 - **Python 3.12+** installed on your system ([Download Python](https://www.python.org/downloads/))
@@ -158,7 +158,7 @@ SANDBOX_BACKEND=local
 
 ---
 
-### Step 4: Start the CodeLens AI Server
+### Step 4: Start the CodeLens-AI Server
 
 Run the server command:
 
@@ -169,7 +169,7 @@ uv run codelens-ai serve
 
 You will see the startup confirmation:
 ```text
-🚀 Starting CodeLens AI server at http://127.0.0.1:8000
+🚀 Starting CodeLens-AI server at http://127.0.0.1:8000
 📖 API documentation at http://127.0.0.1:8000/docs
 INFO: Application startup complete.
 ```
@@ -191,7 +191,7 @@ INFO: Application startup complete.
 
 ## 🎯 Usage & Example Prompts
 
-Once your workspace is connected, you can ask CodeLens AI anything about your project:
+Once your workspace is connected, you can ask CodeLens-AI anything about your project:
 
 ### 1. 🔍 Codebase Exploration & Architecture
 > *"Explain this repo, its file structure, and its main entry points."*
@@ -212,7 +212,7 @@ Once your workspace is connected, you can ask CodeLens AI anything about your pr
 
 ## 💻 Terminal CLI Chat (Alternative)
 
-You can also use CodeLens AI directly from your terminal:
+You can also use CodeLens-AI directly from your terminal:
 
 ```bash
 uv run codelens-ai chat --workspace "C:\path\to\your\project"
