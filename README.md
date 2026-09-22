@@ -266,7 +266,7 @@ This project is open source under the MIT License. See [LICENSE](LICENSE) for de
 
 Built with ❤️ using **FastAPI**, **LangGraph**, and **LiteLLM**
 
-⭐ **Star on GitHub**: [Heshane-11/CodeLens-AI](https://github.com/Heshane-11/CodeLens-AI)
+⭐ **Star on GitHub**: [jatin-anshul/CodeLens-AI](https://github.com/jatin-anshul/CodeLens-AI.git)
 
 </div>
 
