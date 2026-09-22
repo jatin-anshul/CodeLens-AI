@@ -258,15 +258,9 @@ CodeLens-AI/
 
 ---
 
-## 📄 License
-
-This project is open source under the MIT License. See [LICENSE](LICENSE) for details.
-
 <div align="center">
 
 Built with ❤️ using **FastAPI**, **LangGraph**, and **LiteLLM**
-
-⭐ **Star on GitHub**: [jatin-anshul/CodeLens-AI](https://github.com/jatin-anshul/CodeLens-AI.git)
 
 </div>
 
