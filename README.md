@@ -11,7 +11,7 @@
 
 **CodeLens-AI is an intelligent agentic coding assistant that understands your codebase, plans multi-step actions, runs tools safely, and helps you ship software faster — powered by the LLM of your choice.**
 
-[📖 Docs](docs/) · [⚡ Quick Start](#-step-by-step-local-setup-guide) · [🐛 Report Bug](https://github.com/Heshane-11/CodeLens-AI/issues)
+[📖 Docs](docs/) · [⚡ Quick Start](#-step-by-step-local-setup-guide) · [🐛 Report Bug](https://github.com/jatin-anshul/CodeLens-AI/issues)
 
 </div>
 
@@ -97,7 +97,7 @@ Follow this guide to run CodeLens-AI locally on your computer and connect it to 
 
 **Option A: Using Git (Recommended)**
 ```bash
-git clone https://github.com/Heshane-11/CodeLens-AI.git
+git clone https://github.com/jatin-anshul/CodeLens-AI.git
 cd CodeLens-AI
 ```
 
